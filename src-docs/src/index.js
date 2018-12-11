@@ -21,6 +21,7 @@ import themeLight from './theme_light.scss';
 import themeDark from './theme_dark.scss';
 import themeK6Light from './theme_k6_light.scss';
 import themeK6Dark from './theme_k6_dark.scss';
+import themeSwiftype from './theme_swiftype.scss';
 
 registerTheme('light', [
   themeLight
@@ -36,6 +37,10 @@ registerTheme('k6', [
 
 registerTheme('k6_dark', [
   themeK6Dark
+]);
+
+registerTheme('swiftype', [
+  themeSwiftype
 ]);
 
 // Set up app

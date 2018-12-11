@@ -55,6 +55,9 @@ export class GuideThemeSelector extends Component {
     }, {
       name: 'K6 dark',
       value: 'k6_dark',
+    }, {
+      name: 'Swiftype',
+      value: 'swiftype',
     }].map(option => {
       const { name, value } = option;
 

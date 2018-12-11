@@ -1,0 +1,105 @@
+// Button overrides
+.euiButton,
+.euiButtonEmpty {
+  &__text {
+    font-weight: 500;
+    font-size: .9375em;
+    letter-spacing: -.015em;
+  }
+}
+
+.euiButton {
+  &:not(.euiButton--fill):not(.euiButton--ghost),
+  &:hover:not(.euiButton--fill):not(.euiButton--ghost) {
+    $borderColor: rgba($euiColorDarkestShade, .15);
+    background-color: $euiColorEmptyShade;
+    background-image: $stuiGradientWhite;
+    border: 1px solid $borderColor;
+  }
+
+  &:not(.euiButton--fill):not(.euiButton--ghost) {
+    @include euiSlightShadow($euiColorDarkestShade);
+  }
+
+  &:hover:not(.euiButton--fill):not(.euiButton--ghost):not(:disabled) {
+    @include euiSlightShadowHover($euiColorDarkestShade);
+    $borderColor: rgba($euiColorDarkestShade, .15);
+    background: $euiColorEmptyShade;
+    border-color: $borderColor;
+  }
+
+  &:hover:not(:disabled),
+  &:focus {
+    text-decoration: none;
+  }
+
+  &:hover:not(:disabled) {
+    transform: none;
+  }
+
+  &--fill {
+    border-color: transparent;
+  }
+
+  &--primary {
+    &.euiButton--fill {
+      &:not(:hover):not(:disabled) {
+        background-image: linear-gradient($stuiColorBlueDark, $euiColorPrimary);
+      }
+    }
+  }
+
+  &--secondary {
+    &.euiButton--fill {
+      &:not(:hover):not(:disabled) {
+        background-image: linear-gradient($stuiColorGreenDark, $euiColorSecondary);
+      }
+    }
+  }
+
+  &--danger {
+    &.euiButton--fill {
+      &:not(:hover):not(:disabled) {
+        background-image: linear-gradient($stuiColorRedDark, $euiColorDanger);
+      }
+    }
+  }
+
+  &--warning {
+    &.euiButton--fill {
+      &:not(:hover):not(:disabled) {
+        background-image: linear-gradient($stuiColorYellow, $euiColorWarning);
+      }
+    }
+  }
+
+  &__text {
+    .euiButton--fill:not(:disabled):not(.euiButton--warning):not(.euiButton--ghost) & {
+      $shadowColor: rgba($euiColorFullShade, .25);
+      text-shadow: 0 1px 1px $shadowColor;
+    }
+  }
+}
+
+.euiButtonToggle__wrapper {
+  &:not(.euiButtonToggle--isDisabled):hover {
+    transform: none;
+
+    .euiButtonToggle:not(.euiButton--fill):not(.euiButton--ghost):not(:disabled) {
+      @include euiSlightShadowHover($euiColorDarkestShade);
+      $borderColor: rgba($euiColorDarkestShade, .15);
+      background: $euiColorEmptyShade;
+      border-color: $borderColor;
+    }
+  }
+}
+
+.euiButtonToggle__input:enabled {
+  &:hover,
+  &:focus,
+  &:active {
+    & + .euiButtonToggle {
+      text-decoration: none;
+    }
+  }
+}

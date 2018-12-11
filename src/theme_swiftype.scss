@@ -1,0 +1,14 @@
+// These are variable overwrites used only for this theme.
+@import 'themes/swiftype/swiftype_colors';
+
+// Global styling
+@import 'global_styling/index';
+
+// Components
+@import 'components/index';
+
+// Packages
+@import '../packages/index';
+
+// Overrides
+@import 'themes/swiftype/swiftype_buttons';

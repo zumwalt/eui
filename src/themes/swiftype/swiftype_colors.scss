@@ -1,0 +1,115 @@
+// // Core
+$stuiColorBlue: #2F7CF4 !default;
+$stuiColorBlueTint: #E8F6FC !default;
+$stuiColorBlueLighter: #40BFFF !default;
+$stuiColorBlueLight: #2DA0FA !default;
+$stuiColorBlueDark: #3158EE !default;
+$stuiColorBlueDarker: #2232E0 !default;
+$stuiColorBlueAccessible: #003FA5 !default;
+
+$stuiColorGreen: #42CC89 !default;
+$stuiColorGreenTint: #EBFFF9 !default;
+$stuiColorGreenLighter: #59DEB4 !default;
+$stuiColorGreenLight: #45D399 !default;
+$stuiColorGreenDark: #36BA70 !default;
+$stuiColorGreenDarker: #2BA652 !default;
+$stuiColorGreenAccessible: #017F4B !default;
+
+$stuiColorRed: #F95E5B !default;
+$stuiColorRedTint: #FFEFEB !default;
+$stuiColorRedLighter: #FF9173 !default;
+$stuiColorRedLight: #FB705F !default;
+$stuiColorRedDark: #F74D58 !default;
+$stuiColorRedDarker: #E53959 !default;
+$stuiColorRedAccessible: #A30300 !default;
+
+$stuiColorYellow: #FC9E53 !default;
+$stuiColorYellowTint: #FEF9EA !default;
+$stuiColorYellowLighter: #FED566 !default;
+$stuiColorYellowLight: #FEBE54 !default;
+$stuiColorYellowDark: #FA8052 !default;
+$stuiColorYellowDarker: #ED5A40 !default;
+
+$euiColorPrimary: $stuiColorBlueAccessible;
+$euiColorSecondary: $stuiColorGreenAccessible;
+$euiColorAccent: #DD0A73;
+$euiColorHighlight: #FFFBF1;
+$euiColorGhost: #FFF;
+
+// // Status
+$euiColorSuccess: $euiColorSecondary;
+$euiColorDanger: $stuiColorRedAccessible;
+$euiColorWarning: #E5830E;
+
+// Grays
+$stuiColorGray1: #F9FAFB !default;
+$stuiColorGray2: #E9EDF2 !default;
+$stuiColorGray3: #DAE2EB !default;
+$stuiColorGray4: #C5D1DE !default;
+$stuiColorGray5: #A5B4C4 !default;
+$stuiColorGray6: #8B9BAD !default;
+$stuiColorGray7: #647487 !default;
+$stuiColorGray8: #536170 !default;
+$stuiColorGray9: #3B454F !default;
+
+// // Grays
+$euiColorEmptyShade: #FFF;
+$euiColorLightestShade: $stuiColorGray1;
+$euiColorLightShade: $stuiColorGray3;
+$euiColorMediumShade: $stuiColorGray5;
+$euiColorDarkShade: $stuiColorGray7;
+$euiColorDarkestShade: $stuiColorGray9;
+$euiColorFullShade: #000;
+$euiColorSlightHue: #909AA1;
+
+$stuiColorPrimaryTint: #EDF4F7;
+$stuiGradientWhite: linear-gradient(to bottom, $euiColorEmptyShade, $stuiColorPrimaryTint) !default;
+
+// // Every color below must be based mathmatically on the set above.
+
+// $euiTextColor: $euiColorDarkestShade;
+// $euiTitleColor: tintOrShade($euiColorFullShade, 10%, 0%);
+// $euiLinkColor: $euiColorPrimary;
+// $euiFocusBackgroundColor: tintOrShade($euiColorPrimary, 90%, 50%);
+
+// // Visualization colors
+
+// $euiColorVis0: #00B3A4;
+// $euiColorVis1: #3185FC;
+// $euiColorVis2: #DB1374;
+// $euiColorVis3: #490092;
+// $euiColorVis4: #FEB6DB;
+// $euiColorVis5: #E6C220;
+// $euiColorVis6: #BFA180;
+// $euiColorVis7: #F98510;
+// $euiColorVis8: #461A0A;
+// $euiColorVis9: #920000;
+
+// // Code
+
+// $euiCodeBlockBackgroundColor: $euiColorLightestShade;
+// $euiCodeBlockColor: $euiTextColor;
+// $euiCodeBlockSelectedBackgroundColor: inherit;
+// $euiCodeBlockCommentColor: #998;
+// $euiCodeBlockSelectorTagColor: inherit;
+// $euiCodeBlockStringColor: #DD0A73;
+// $euiCodeBlockNumberColor: #00A69B;
+// $euiCodeBlockKeywordColor: #333;
+// $euiCodeBlockFunctionTitleColor: inherit;
+// $euiCodeBlockTagColor: #0079A5;
+// $euiCodeBlockNameColor: inherit;
+// $euiCodeBlockTypeColor: #0079A5;
+// $euiCodeBlockAttributeColor: inherit;
+// $euiCodeBlockSymbolColor: #990073;
+// $euiCodeBlockParamsColor: inherit;
+// $euiCodeBlockMetaColor: #999;
+// $euiCodeBlockTitleColor: #900;
+// $euiCodeBlockRegexpColor: #009926;
+// $euiCodeBlockBuiltInColor: #0086B3;
+// $euiCodeBlockSectionColor: #FFC66D;
+// $euiCodeBlockAdditionBackgroundColor: #DFD;
+// $euiCodeBlockAdditionColor: inherit;
+// $euiCodeBlockDeletionBackgroundColor: #FDD;
+// $euiCodeBlockDeletionColor: inherit;
+// $euiCodeBlockSelectorClassColor: inherit;
+// $euiCodeBlockSelectorIdColor: inherit;
